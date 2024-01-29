@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Chinese Phonetic Database</title>
-  <!-- Add CSS here or link to an external stylesheet -->
+    <title>Chinese Phonetic Database</title>
 </head>
 <body>
-  <h1>Chinese Phonetic Database</h1>
-  <form id="phoneticForm">
-    <label for="character">Character:</label>
-    <input type="text" id="character" name="character" required><br><br>
-    <label for="ipa">IPA Pronunciation:</label>
-    <input type="text" id="ipa" name="ipa" required><br><br>
-    <button type="submit">Submit</button>
-  </form>
+    <h1>Phonetic Data Submission</h1>
+    <form id="phoneticForm">
+        <input type="text" id="character" placeholder="Character" required>
+        <input type="text" id="ipa" placeholder="IPA Pronunciation" required>
+        <button type="submit">Submit</button>
+    </form>
 
-  <!-- Include your JavaScript file here -->
+    <p id="response"></p>
+
+    <script src="script.js"></script>
 </body>
 </html>
